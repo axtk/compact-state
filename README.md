@@ -165,8 +165,7 @@ Define what should be done before the URL changes (in a way effectively similar 
 
 ```js
 route.on("navigationstart", ({ href }) => {
-  if (hasUnsavedInput)
-    return false; // Quit the navigation, prevent the current URL change
+  if (hasUnsavedInput) return false; // Quit the navigation, prevent the current URL change
 
   if (href === "/") {
     route.href = "/intro"; // SPA redirection
