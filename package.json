@@ -29,11 +29,11 @@
   "author": "axtk",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.1",
-    "auxsrv": "^0.3.19",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "auxsrv": "^0.3.20",
     "url-shape": "^2.1.6",
-    "zod": "^4.4.3"
+    "zod": "^4.6.7"
   },
   "dependencies": {
     "@standard-schema/spec": "^1.1.0",
