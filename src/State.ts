@@ -32,7 +32,7 @@ function isImmediatelyInvokedEvent(event: unknown): event is "set" {
  * Data container allowing for subscription to its updates.
  */
 export class State<
-  T,
+  T = unknown,
   P extends StatePayloadMap<T> = StatePayloadMap<T>,
 > extends EventEmitter<P> {
   _value: T;
