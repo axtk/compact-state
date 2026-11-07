@@ -1,7 +1,7 @@
 {
   "name": "compact-state",
   "version": "0.1.0",
-  "description": "Vanilla TS/JS shared state management",
+  "description": "Vanilla TS/JS shared state management and routing",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -22,7 +22,9 @@
   "keywords": [
     "state",
     "shared state",
-    "state management"
+    "state management",
+    "persistent state",
+    "routing"
   ],
   "author": "axtk",
   "license": "MIT",
